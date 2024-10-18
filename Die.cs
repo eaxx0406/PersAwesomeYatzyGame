@@ -10,11 +10,11 @@ namespace Test_yatzy
     {
         public int Eyes { get; private set; }
 
-        public Die ThrowDie()
+        public Die ThrowDie() //Kaster terningen
         {
             Random rnd = new Random();
-            this.Eyes = rnd.Next(1, 7);
-            return this;
+            this.Eyes = rnd.Next(1, 7); // genere et tilfældigt tal mellem 1 og 6 og sætter det til terningens øjne
+            return this; //returner terningen
         }
     }
 }

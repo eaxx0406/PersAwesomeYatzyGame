@@ -4,6 +4,7 @@
     public string Name { get; set; }
     public int Score { get; set; } = 0;
 
+    //Husk du skal holde styr på om et slag er brugt og hvor mange point vedkommende evt har fået 
     public int Sum = 0;
     public int Bonus = 0;
     public int Number;

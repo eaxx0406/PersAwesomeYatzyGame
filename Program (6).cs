@@ -1,6 +1,4 @@
-﻿using System.Numerics;
-using System.Security.Cryptography.X509Certificates;
-using Test_yatzy;
+﻿using Test_yatzy;
 
 //Setup af spil
 Console.ForegroundColor = ConsoleColor.White; //teksten i konsollen er hvid
@@ -56,7 +54,6 @@ for (int i = 1; i <= RoundsInGame; i++) // Styrer hvor man runder der er spillet
 
     }
 }
-
 void PrintDice() //Viser hvad terningerne har slået
 {
     Console.WriteLine($"Terningerne er kastet og viser: ");
@@ -66,8 +63,6 @@ void PrintDice() //Viser hvad terningerne har slået
     }
     Console.WriteLine("");
 }
-
-
 int CountDice(int specifiedNumberOfEyes) // bruges til at finde udad hvor mange terninger der har et bestemt antal øjne
 {
     int DiceWithSpecifiedNumberOfEyes = 0;
